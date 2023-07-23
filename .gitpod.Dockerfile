@@ -3,4 +3,4 @@ FROM gitpod/workspace-full-vnc:latest
 
 USER root
 # Install custom tools, runtime, etc.
-RUN apt-get -y update; apt-get -y upgrade; apt-get install xfce4*
+RUN apt-get -y update; apt-get -y upgrade; apt-get install xterm xclock xcolors xcolorsel xfce4*
